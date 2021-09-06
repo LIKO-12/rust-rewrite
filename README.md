@@ -2,7 +2,7 @@
 # ![LIKO-12](https://github.com/LIKO-12/Extras/raw/master/Readme-Screenshots/Header_Logo.png)
 
 > This repository is for the new under renovation rewrite of the LIKO-12 project.
-> The legacy version with the original stars and support is still available in the [legacy repository](https://github.com/LIKO-12/Legacy)
+> The legacy version with the original stars and support by people is still available in the [legacy repository](https://github.com/LIKO-12/Legacy)
 
 ## About
 
