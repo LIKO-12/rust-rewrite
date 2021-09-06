@@ -12,7 +12,7 @@ LIKO-12 is a programming environment that aims to help people learn how to progr
 
 The project is being rewritten in 🦀 Rust and using V8 ⚙ for embedding JavaScript.
 
-You can view the announcement on [Twitter](https://twitter.com/rami_sab07/status/1434851235564228609?s=20) or on [GitHub Discussions](https://github.com/LIKO-12/LIKO-12/discussions/272).
+You can view the announcement on [Twitter](https://twitter.com/rami_sab07/status/1434851235564228609?s=20) or on [GitHub Discussions](https://github.com/LIKO-12/Legacy/discussions/272).
 
 ## Update feeds
 
