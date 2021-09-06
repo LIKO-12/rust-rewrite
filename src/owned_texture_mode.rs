@@ -31,15 +31,9 @@ impl OwnedTextureMode {
     }
 
     pub fn end(self) -> (RaylibHandle, RaylibThread, RenderTexture2D) {
-        let Self {handle, thread, texture} = self;
-        (handle, thread, texture)
+        unsafe { ffi::EndTextureMode() }
+        (self.handle, self.thread, self.texture)
     }
 }
 
 impl RaylibDraw for OwnedTextureMode {}
-
-impl Drop for OwnedTextureMode {
-    fn drop(&mut self) {
-        unsafe { ffi::EndTextureMode() }
-    }
-}
