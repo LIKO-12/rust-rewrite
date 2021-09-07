@@ -1,6 +1,8 @@
 
 # ![LIKO-12](https://github.com/LIKO-12/Extras/raw/master/Readme-Screenshots/Header_Logo.png)
 
+[![GitHub Actions](https://badgen.net/github/checks/tunnckoCore/opensource)](https://github.com/LIKO-12/LIKO-12/actions)
+
 > This repository is for the new under renovation rewrite of the LIKO-12 project.
 > The legacy version with the original stars and contributions is still available in the [legacy repository](https://github.com/LIKO-12/Legacy)
 
