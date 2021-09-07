@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install cmake
-      run: sudo apt update && sudo apt install cmake
+      uses: jwlawson/actions-setup-cmake@v1.10
     - name: Build
       run: cargo build --verbose
     - name: Run tests
