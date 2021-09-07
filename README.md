@@ -19,7 +19,7 @@ You can view the announcement on [Twitter](https://twitter.com/rami_sab07/status
 To keep up with the progress on the rewrite, you can, and please do:
 
 - Follow me on [Twitter (@rami_sab07)](https://twitter.com/rami_sab07)
-- Follow the [#development-feed](https://discord.gg/TKatS2y9zZ) channel on [LIKO-12's Discord](https://discord.gg/GDtHrsJ)
+- Follow the [#development-log](https://discord.gg/TKatS2y9zZ) channel on [LIKO-12's Discord](https://discord.gg/GDtHrsJ)
 
 ## Project history
 
