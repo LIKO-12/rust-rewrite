@@ -20,7 +20,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: target
-        key: ${{ runner.os }}-${{ hashFiles('Cargo.log') }}
+        key: ${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
     - name: Install cmake
       uses: jwlawson/actions-setup-cmake@v1.10
     - name: Build
