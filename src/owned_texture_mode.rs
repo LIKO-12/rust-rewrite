@@ -1,5 +1,6 @@
 use raylib::prelude::*;
 use raylib::ffi;
+use std::ops::Deref;
 
 // TODO: Others might benefit of this by contributing it to a binding.
 // TODO: Or maybe create an ownership based bindings of raylib-rs.
@@ -56,3 +57,10 @@ impl OwnedTextureMode {
 }
 
 impl RaylibDraw for OwnedTextureMode {}
+impl Deref for OwnedTextureMode {
+    type Target = RaylibHandle;
+
+    fn deref(&self) -> &Self::Target {
+        &self.handle
+    }
+}
