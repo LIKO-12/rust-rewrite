@@ -4,7 +4,6 @@ use crate::owned_texture_mode::OwnedTextureMode;
 
 mod graphics;
 mod owned_texture_mode;
-// mod main_js;
 
 const SCREEN_WIDTH: i32 = 192;
 const SCREEN_HEIGHT: i32 = 128;
