@@ -16,10 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Cache `target` directory
-      uses: actions/cache@v2
+    - uses: actions/cache@v2
       with:
-        path: target
+        path: ./target
         key: ${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
     - name: Install cmake
       uses: jwlawson/actions-setup-cmake@v1.10
