@@ -5,7 +5,8 @@ use std::string::String as RustString;
 
 use v8::*;
 
-use crate::peripheral::Peripheral;
+use super::Peripheral;
+use crate::add_method;
 
 struct PeripheralEntry {
     type_name: &'static str,

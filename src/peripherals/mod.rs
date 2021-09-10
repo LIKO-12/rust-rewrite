@@ -1,3 +1,8 @@
+pub mod macros;
+pub(crate) mod arithmetic_peripheral;
+// Currently broken
+//pub(crate) mod simple_peripheral;
+pub mod store;
 
 pub trait Peripheral {
     /// Must return the peripheral's type.

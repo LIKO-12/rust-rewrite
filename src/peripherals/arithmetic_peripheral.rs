@@ -1,6 +1,8 @@
 use v8::*;
 
-use crate::peripheral::Peripheral;
+use crate::add_method;
+
+use super::Peripheral;
 
 pub struct ArithmeticPeripheral {}
 
