@@ -1,8 +1,6 @@
 use v8::*;
 
-use crate::add_method;
-
-use super::Peripheral;
+use super::{Peripheral, add_method};
 
 pub struct ArithmeticPeripheral {}
 
@@ -32,7 +30,7 @@ impl Peripheral for ArithmeticPeripheral {
     fn js_api<'a>(&self, scope: &mut HandleScope<'a, ()>) -> Local<'a, ObjectTemplate> {
         let api = ObjectTemplate::new(scope);
 
-        add_method!(api, scope, "sum", Self::sum_callback);
+        add_method(api, scope, "sum", Self::sum_callback);
 
         api
     }
