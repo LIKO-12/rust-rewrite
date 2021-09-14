@@ -1,5 +1,8 @@
 use std::collections::HashMap;
-use crate::peripheral::Peripheral;
+
+use v8::*;
+
+use super::Peripheral;
 
 struct PeripheralsStore {
     peripherals: HashMap<String, Box<dyn Peripheral>>,

@@ -29,22 +29,22 @@ impl RayLibGraphics {
         // TODO: Load the palette from an embedded image file.
 
         let palette = [
-            RaylibColor::get_color(0x000000), // 0
-            RaylibColor::get_color(0x1c2b53), // 1
-            RaylibColor::get_color(0x7f2454), // 2
-            RaylibColor::get_color(0x008751), // 3
-            RaylibColor::get_color(0xab5236), // 4
-            RaylibColor::get_color(0x60584f), // 5
-            RaylibColor::get_color(0xc3c3c6), // 6
-            RaylibColor::get_color(0xfff1e9), // 7
-            RaylibColor::get_color(0xed1b51), // 8
-            RaylibColor::get_color(0xfaa21b), // 9
-            RaylibColor::get_color(0xf7ec2f), // 10
-            RaylibColor::get_color(0x5dbb4d), // 11
-            RaylibColor::get_color(0x51a6dc), // 12
-            RaylibColor::get_color(0x83769c), // 13
-            RaylibColor::get_color(0xf176a6), // 14
-            RaylibColor::get_color(0xfcccab), // 15
+            RaylibColor::get_color(0x050506), // 0  Black
+            RaylibColor::get_color(0x192739), // 1  Dark Blue
+            RaylibColor::get_color(0x551823), // 2  Maroon
+            RaylibColor::get_color(0x074c35), // 3  Dark Green
+            RaylibColor::get_color(0x885135), // 4  Brown
+            RaylibColor::get_color(0x45454c), // 5  Dark grey
+            RaylibColor::get_color(0x908f88), // 6  Light grey
+            RaylibColor::get_color(0xfffbe8), // 7  White
+            RaylibColor::get_color(0xb60a04), // 8  Red
+            RaylibColor::get_color(0xff6e11), // 9  Orange
+            RaylibColor::get_color(0xffec62), // 10 Yellow
+            RaylibColor::get_color(0x7aa143), // 11 Green
+            RaylibColor::get_color(0x8bb6d2), // 12 Cyan
+            RaylibColor::get_color(0x5a45b4), // 13 Blue
+            RaylibColor::get_color(0xf06391), // 14 Pink
+            RaylibColor::get_color(0xf4be8b), // 15 Tan
         ];
 
         RayLibGraphics {

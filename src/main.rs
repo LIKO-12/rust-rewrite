@@ -12,8 +12,7 @@
 // const SCREEN_RECTANGLE: Rectangle = Rectangle::new(0.0, 0.0, SCREEN_WIDTH as f32, -SCREEN_HEIGHT as f32);
 // const VECTOR_ZERO: Vector2 = Vector2::new(0.0, 0.0);
 
-mod peripheral;
-mod peripherals_store;
+mod peripherals;
 
 fn main() {
     // let (mut rl, thread) = raylib::init()
